@@ -33,3 +33,19 @@
 	font-family: 'Roboto', sans-serif;
 	text-shadow: 0 1px 1px rgba(20,20,20,0.6);
 }
+
+div, span {
+	font-family: 'Roboto', sans-serif;
+}
+
+.customize-container {
+	margin-top: 50px;
+}
+
+.jsoneditor-container {
+	margin-top: 12px;
+}
+
+.customize-options-header {
+	margin-bottom: 14px;
+}
