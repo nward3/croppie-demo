@@ -7,3 +7,29 @@
 	width: 400px;
 	text-align: center;
 }
+
+.space-upper {
+	padding-top: 50px;
+}
+
+.text-container {
+	height: 400px;
+	line-height: 400px;
+}
+
+.centered-text {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.color-wrapper {
+	background-color: #4fc3f7;
+	padding-bottom: 30px;
+}
+
+.text-styling {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0 1px 1px rgba(20,20,20,0.6);
+}
