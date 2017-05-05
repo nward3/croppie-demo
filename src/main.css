@@ -1,0 +1,9 @@
+.flex-centered {
+	display: flex;
+	justify-content: center;
+}
+
+.croppie-demo-container {
+	width: 400px;
+	text-align: center;
+}
