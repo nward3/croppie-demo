@@ -16,7 +16,11 @@ croppieDemo.croppie('bind', {
 });
 
 var interactiveCroppieOptions = {
-	viewport: {
+	showZoomer: true,
+	enforceBoundary: true,
+	mouseWheelZoom: true,
+	enableZoom: true,
+		viewport: {
 		width: 180,
 		height: 180,
 		type: 'square'
@@ -24,8 +28,7 @@ var interactiveCroppieOptions = {
 	boundary: {
 		width: 270,
 		height: 270
-	},
-	showZoomer: true
+	}
 };
 
 croppieInteractive = $('#croppie-interactive').croppie(interactiveCroppieOptions);

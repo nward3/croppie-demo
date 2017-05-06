@@ -24,7 +24,9 @@
 }
 
 .color-wrapper {
-	background-color: #4fc3f7;
+	/*background: linear-gradient(#4fc3f7, rgb(79, 200, 247));*/
+	background: linear-gradient(#4fc3f7, #4fe0f7);
+	/*background-color: #4fc3f7;*/
 	padding-bottom: 30px;
 }
 
@@ -40,12 +42,31 @@ div, span {
 
 .customize-container {
 	margin-top: 50px;
+	margin-bottom: 40px;
 }
 
 .jsoneditor-container {
-	margin-top: 12px;
+	margin-top: -24px;
 }
 
 .customize-options-header {
 	margin-bottom: 14px;
+}
+
+.header {
+	padding-right: 0px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+	/*margin-right: 20%;*/
+}
+
+.header > a {
+	color: white;
+	margin-left: 24px;
+	font-size: 16px;
+}
+
+.header > a:hover, .header >a:visited {
+	text-decoration: none;
 }
