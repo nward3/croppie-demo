@@ -70,3 +70,9 @@ div, span {
 .header > a:hover, .header >a:visited {
 	text-decoration: none;
 }
+
+.cr-slider {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: transparent
+}
